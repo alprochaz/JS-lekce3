@@ -12,3 +12,8 @@
 const jmeno = prompt("Zedej tvoje jmeno a prijmeni:");
 const vek = prompt("Tvuj vek:");
 document.body.innerHTML += "<p>" + jmeno + ", vek: " + vek + "</p>" ;
+
+// Priklad Vyplata
+const hodinovaSazba = Number(prompt("Zadej hodinovou sazbu v Kc"))
+const hrubaMzda =  hodinovaSazba * 8 * 21 
+document.body.innerHTML += "<p> Hruba mzda: " + hrubaMzda + " Kc </p>" 
